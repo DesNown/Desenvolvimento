@@ -1,4 +1,4 @@
 from requests import *
 
-req = get("http://www.omdbapi.com/?t=interstella")
+req = get("http://www.google.com")
 print(req.text)
